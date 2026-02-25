@@ -1,5 +1,5 @@
 # dego-project-teamS
-DEGO Course Project — TeamS 
+DEGO Course Project — TeamS -– Credit Application Governance Analysis
 ## Team Members
 - Sengul Seyda Yilmaz
 ## Project Description
