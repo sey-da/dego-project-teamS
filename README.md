@@ -1,8 +1,7 @@
-# dego-project-team7
-DEGO Course Project — Team 7
+# dego-project-teamS
+DEGO Course Project — TeamS 
 ## Team Members
 - Sengul Seyda Yilmaz
-- Martin Schmitz 
 ## Project Description
 Credit scoring bias analysis for DEGO course .
 ## Structure
