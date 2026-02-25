@@ -19,6 +19,8 @@ This project implements a layered data engineering pipeline using Databricks and
 Bronze → Silver → Gold
 
 ### Notebook Structure
+
+```text
 notebooks/
     bronze/
         01_data_ingestion.py
