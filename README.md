@@ -13,20 +13,19 @@ Credit scoring bias analysis for DEGO course .
 ------------------------------------------------------------------
 
 ## GENERAL REQUIRED STRUCTURE
+
+```text
 project-teamS/
-│
 ├── README.md                    # Project overview & findings summary
 ├── data/                        # Data files (or links)
 ├── notebooks/                   # Analysis notebooks
 │   ├── 01-data-quality.ipynb
 │   ├── 02-bias-analysis.ipynb
 │   └── 03-privacy-demo.ipynb
-│
 ├── src/                         # Reusable code (optional)
 │   └── fairness_utils.py
-│
 └── presentation/                # Video file or link
-
+```
 
 
 
