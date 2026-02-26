@@ -11,6 +11,26 @@ Credit scoring bias analysis for DEGO course .
 - `reports/` – Final deliverables
 ------------------------------------------------------------------
 ------------------------------------------------------------------
+
+## GENERAL REQUIRED STRUCTURE
+project-teamS/
+│
+├── README.md                    # Project overview & findings summary
+├── data/                        # Data files (or links)
+├── notebooks/                   # Analysis notebooks
+│   ├── 01-data-quality.ipynb
+│   ├── 02-bias-analysis.ipynb
+│   └── 03-privacy-demo.ipynb
+│
+├── src/                         # Reusable code (optional)
+│   └── fairness_utils.py
+│
+└── presentation/                # Video file or link
+
+
+
+
+
 - ## Data Engineering Pipeline
 
 This project implements a layered data engineering pipeline using Databricks and PySpark.
