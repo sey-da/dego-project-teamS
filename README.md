@@ -30,25 +30,14 @@ project-teamS/
 ```
 
 
-- ## Data Engineering Pipeline
+Project Overview
 
-This project implements a layered data engineering pipeline using Databricks and PySpark.
+This project follows a structured data engineering and fairness evaluation workflow.
 
-### Architecture
-Bronze → Silver → Gold
+The Data Engineering layer is implemented inside the src/ directory and includes modular pipeline components for data ingestion, cleaning, and transformation. These scripts represent the reproducible backend processing logic that ensures data quality, structural consistency, and analytical reliability.
 
-### Notebook Structure
+The analytical findings and methodological explanations are documented inside the notebooks/ directory.
+	•	01-data-quality.ipynb presents the comprehensive data quality assessment across completeness, uniqueness, validity, consistency, and accuracy dimensions, including remediation steps.
+	•	02-bias-analysis.ipynb calculates and interprets the Disparate Impact ratio for gender, applying the 80 percent rule to assess potential group-level bias.
 
-```text
-notebooks/
-    bronze/
-        01_data_ingestion.py
-    silver/
-        02_data_cleaning.py
-    pipeline/
-        00_pipeline_runner.py
-
-### Pipeline Logic
-- 01_data_ingestion.py loads raw JSON data into Bronze layer.
-- 02_data_cleaning.py standardizes, validates and cleans data into Silver layer.
-- 00_pipeline_runner.py orchestrates ingestion and cleaning sequentially.
+The separation between engineering logic and analytical documentation ensures clarity, reproducibility, and professional project organization.
