@@ -29,7 +29,7 @@ project-teamS/
     └── 02_data_cleaning.py
 ```
 
-
+```
 ## Project Overview
 
 This project follows a structured data engineering and fairness evaluation workflow.
@@ -42,3 +42,4 @@ The analytical findings and methodological explanations are documented inside th
 - `02-bias-analysis.ipynb` calculates and interprets the Disparate Impact ratio for gender, applying the 80 percent rule to assess potential group-level bias.
 
 The separation between engineering logic and analytical documentation ensures clarity, reproducibility, and professional project organization.
+```
