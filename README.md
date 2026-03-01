@@ -12,22 +12,22 @@ Credit scoring bias analysis for DEGO course .
 ------------------------------------------------------------------
 ------------------------------------------------------------------
 
-## GENERAL REQUIRED STRUCTURE
-
-```text
 project-teamS/
-├── README.md                    # Project overview & findings summary
-├── data/                        # Data files (or links)
-├── notebooks/                   # Analysis notebooks
+│
+├── README.md
+│
+├── data/
+│   └── novacred_applications.json   (optional)
+│
+├── notebooks/
 │   ├── 01-data-quality.ipynb
-│   ├── 02-bias-analysis.ipynb
-│   └── 03-privacy-demo.ipynb
-├── src/                         # Reusable code (optional)
-│   └── fairness_utils.py
-└── presentation/                # Video file or link
+│   └── 02-bias-analysis.ipynb
+│
+└── src/
+    ├── 00_pipeline_runner.py
+    ├── 01_data_ingestion.py
+    └── 02_data_cleaning.py
 ```
-
-
 
 
 - ## Data Engineering Pipeline
