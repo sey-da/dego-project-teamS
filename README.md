@@ -30,14 +30,15 @@ project-teamS/
 ```
 
 
-##Project Overview
+## Project Overview
 
 This project follows a structured data engineering and fairness evaluation workflow.
 
-The Data Engineering layer is implemented inside the src/ directory and includes modular pipeline components for data ingestion, cleaning, and transformation. These scripts represent the reproducible backend processing logic that ensures data quality, structural consistency, and analytical reliability.
+The data engineering layer is implemented inside the `src/` directory and includes modular pipeline components for data ingestion, cleaning, and transformation. These scripts represent the reproducible backend processing logic that ensures data quality, structural consistency, and analytical reliability.
 
-The analytical findings and methodological explanations are documented inside the notebooks/ directory.
-	•	01-data-quality.ipynb presents the comprehensive data quality assessment across completeness, uniqueness, validity, consistency, and accuracy dimensions, including remediation steps.
-	•	02-bias-analysis.ipynb calculates and interprets the Disparate Impact ratio for gender, applying the 80 percent rule to assess potential group-level bias.
+The analytical findings and methodological explanations are documented inside the `notebooks/` directory:
+
+- `01-data-quality.ipynb` presents the comprehensive data quality assessment across completeness, uniqueness, validity, consistency, and accuracy dimensions, including remediation steps.
+- `02-bias-analysis.ipynb` calculates and interprets the Disparate Impact ratio for gender, applying the 80 percent rule to assess potential group-level bias.
 
 The separation between engineering logic and analytical documentation ensures clarity, reproducibility, and professional project organization.
