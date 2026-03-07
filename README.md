@@ -11,25 +11,35 @@ Credit scoring bias analysis for DEGO course .
 - `reports/` – Final deliverables
 ------------------------------------------------------------------
 ------------------------------------------------------------------
-- ## Data Engineering Pipeline
+```
+project-teamS/
+│
+├── README.md
+│
+├── data/
+│   └── novacred_applications.json   (optional)
+│
+├── notebooks/
+│   ├── 01-data-quality.ipynb
+│   └── 02-bias-analysis.ipynb
+│
+└── src/
+    ├── 00_pipeline_runner.py
+    ├── 01_data_ingestion.py
+    └── 02_data_cleaning.py
+```
 
-This project implements a layered data engineering pipeline using Databricks and PySpark.
+```
+## Project Overview
 
-### Architecture
-Bronze → Silver → Gold
+This project follows a structured data engineering and fairness evaluation workflow.
 
-### Notebook Structure
+The data engineering layer is implemented inside the `src/` directory and includes modular pipeline components for data ingestion, cleaning, and transformation. These scripts represent the reproducible backend processing logic that ensures data quality, structural consistency, and analytical reliability.
 
-```text
-notebooks/
-    bronze/
-        01_data_ingestion.py
-    silver/
-        02_data_cleaning.py
-    pipeline/
-        00_pipeline_runner.py
+The analytical findings and methodological explanations are documented inside the `notebooks/` directory:
 
-### Pipeline Logic
-- 01_data_ingestion.py loads raw JSON data into Bronze layer.
-- 02_data_cleaning.py standardizes, validates and cleans data into Silver layer.
-- 00_pipeline_runner.py orchestrates ingestion and cleaning sequentially.
+- `01-data-quality.ipynb` presents the comprehensive data quality assessment across completeness, uniqueness, validity, consistency, and accuracy dimensions, including remediation steps.
+- `02-bias-analysis.ipynb` calculates and interprets the Disparate Impact ratio for gender, applying the 80 percent rule to assess potential group-level bias.
+
+The separation between engineering logic and analytical documentation ensures clarity, reproducibility, and professional project organization.
+```
