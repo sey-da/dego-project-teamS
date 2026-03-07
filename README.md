@@ -1,7 +1,12 @@
 # dego-project-teamS
 DEGO Course Project — TeamS -– Credit Application Governance Analysis
-## Team Members
-- Sengul Seyda Yilmaz
+## Author
+
+| Name | Role | Contributions |
+|-----|-----|-----|
+| Sengul Seyda Yilmaz | Data Engineer | Data quality assessment notebook, data validation, duplicate detection, data cleaning, and preparation of the dataset for downstream analysis |
+| Sengul Seyda Yilmaz | Data Scientist | Bias analysis notebook, fairness evaluation using the Disparate Impact ratio and the 80 percent rule, interpretation of bias metrics and documentation of key findings |
+
 ## Project Description
 Data quality evaluation and bias analysis for a credit approval dataset, developed as part of the DEGO course.
 ## Structure
