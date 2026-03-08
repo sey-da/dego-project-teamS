@@ -22,7 +22,8 @@ project-teamS/
 ├── README.md
 │
 ├── data/
-│   └── novacred_applications.json   (optional)
+│   ├── raw_credit_applications.json
+│   └── credit_applications_clean_sample.csv
 │
 ├── notebooks/
 │   ├── 01-data-quality.ipynb
