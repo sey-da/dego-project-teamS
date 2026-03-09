@@ -23,13 +23,16 @@ project-teamS/
 │
 ├── data/
 │   ├── raw_credit_applications.json
-│   └── credit_applications_clean_sample.csv
+│   └── credit_applications_clean_sample.csv   # optional
 │
 ├── notebooks/
 │   ├── 01-data-quality.ipynb
 │   └── 02-bias-analysis.ipynb
 │
-└── src/
+├── report/   # optional
+│   └── data_quality_and_bias_report.md
+│
+└── src/      # optional
 ```
 ------------------------------------------------------------------
 ------------------------------------------------------------------
