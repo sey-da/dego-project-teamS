@@ -8,7 +8,7 @@ DEGO Course Project — TeamS -– Credit Application Governance Analysis
 
 ## Project Description
 Data quality evaluation and bias analysis for a credit approval dataset. 
-The project examines multiple data quality dimensions and evaluates potential bias in loan approval outcomes using fairness metrics such as the Disparate Impact ratio. 
+The project examines multiple data quality dimensions and evaluates potential bias in loan approval outcomes using fairness metrics.
 This project was developed as part of the DEGO (Data Ecosystems and Governance in Organizations) course.
 
 ## Structure
