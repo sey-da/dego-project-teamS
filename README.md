@@ -29,7 +29,7 @@ project-teamS/
 │   └── 02-bias-analysis.ipynb
 │
 ├── reports/   # optional
-│ 
+│   └── Data_Quality_and_Bias_Analysis_Report.pdf
 │
 └── src/       # optional
 ```
