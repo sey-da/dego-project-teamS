@@ -29,10 +29,10 @@ project-teamS/
 │   ├── 01-data-quality.ipynb
 │   └── 02-bias-analysis.ipynb
 │
-├── report/   # optional
-│   └── data_quality_and_bias_report.md
+├── reports/   # optional
+│ 
 │
-└── src/      # optional
+└── src/       # optional
 ```
 ------------------------------------------------------------------
 ------------------------------------------------------------------
