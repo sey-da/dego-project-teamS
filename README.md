@@ -115,7 +115,7 @@ Group level fairness is primarily assessed by calculating the **Disparate Impact
 2. Run **01-data-quality.ipynb** to evaluate dataset quality and identify issues.
 3. Run **02-bias-analysis.ipynb** to compute fairness metrics and evaluate potential bias in approval outcomes.
 
-4. ## Key Outputs
+ ## Key Outputs
 
 The project produces the following outputs:
 
