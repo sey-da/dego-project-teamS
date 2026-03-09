@@ -7,7 +7,10 @@ DEGO Course Project — TeamS -– Credit Application Governance Analysis
 | Sengul Seyda Yilmaz | Data Scientist | Bias analysis notebook, fairness evaluation using the Disparate Impact ratio and the 80 percent rule, interpretation of bias metrics and documentation of key findings |
 
 ## Project Description
-Data quality evaluation and bias analysis for a credit approval dataset, developed as part of the DEGO course.
+Data quality evaluation and bias analysis for a credit approval dataset. 
+The project examines multiple data quality dimensions and evaluates potential bias in loan approval outcomes using fairness metrics such as the Disparate Impact ratio. 
+This project was developed as part of the DEGO (Data & AI Governance) course.
+
 ## Structure
 - `data/` – Dataset files
 - `notebooks/` – Jupyter analysis notebooks
