@@ -47,7 +47,7 @@ The repository follows a clear separation between data validation and bias evalu
 
 The dataset contains credit application records used to evaluate loan approval decisions. The data includes demographic attributes, financial indicators, and approval outcomes.
 
-Key attributes include:
+Key attributes used in the analysis include:
 
 - gender
 - annual_income
