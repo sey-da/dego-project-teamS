@@ -1,7 +1,6 @@
 # dego-project-teamS
 DEGO Course Project — TeamS -– Credit Application Governance Analysis
 ## Author
-
 | Name | Role | Contributions |
 |-----|-----|-----|
 | Sengul Seyda Yilmaz | Data Engineer | Data quality assessment notebook, data validation, duplicate detection, data cleaning, and preparation of the dataset for downstream analysis |
@@ -44,6 +43,20 @@ project-teamS/
 This project evaluates data quality and potential bias in a credit approval dataset through a structured analytical workflow. The objective is to ensure that the dataset is reliable before assessing fairness in approval decisions.
 
 The repository follows a clear separation between data validation and bias evaluation, reflecting a common practice in data engineering and data science workflows. By validating the dataset first, the analysis ensures that fairness metrics are applied to data that has been properly examined for reliability and structural integrity.
+## Dataset
+
+The dataset contains credit application records used to evaluate loan approval decisions. The data includes demographic attributes, financial indicators, and approval outcomes.
+
+Key attributes include:
+
+- gender
+- annual_income
+- date_of_birth
+- zip_code
+- email
+- loan_approved
+
+The dataset is provided in JSON format and contains nested structures that require preprocessing before analysis.
 
 ## Analytical Workflow
 
@@ -95,3 +108,19 @@ The analysis investigates several sources of bias commonly discussed in responsi
 - potential proxy variables such as income level and ZIP code that may indirectly encode demographic characteristics  
 
 Group level fairness is primarily assessed by calculating the **Disparate Impact ratio for gender**, and the results are interpreted using the **80 percent rule**, a commonly used guideline for identifying potential adverse impact.
+
+## How to Run the Analysis
+
+1. Open the notebooks in a Python environment or Databricks workspace.
+2. Run **01-data-quality.ipynb** to evaluate dataset quality and identify issues.
+3. Run **02-bias-analysis.ipynb** to compute fairness metrics and evaluate potential bias in approval outcomes.
+
+4. ## Key Outputs
+
+The project produces the following outputs:
+
+- Data quality assessment results
+- Identified data quality issues and remediation strategies
+- Approval rate comparison across gender groups
+- Disparate Impact calculation
+- Discussion of potential bias and governance considerations
